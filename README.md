@@ -5,7 +5,7 @@ Este projeto foi feito no módulo base da **Escola DNC**, além das instruções
 Visando colocar em prática conhecimento já obtido nos cursos anteriores. 
 
 
-<a href="https://rodrigo-falcao.github.io/landing-page-DNC/" target="_blank">Clique aqui para acessar o site da Escola DNC</a>
+<a href="https://rodrigo-falcao.github.io/landing-page-DNC/" target="_blank">Clique aqui para acessar o site do repositório!</a>
 
 
 ## Como rodar o projeto
