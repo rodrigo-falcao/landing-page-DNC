@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola DNC</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- HEADER PRINCIPAL -->
+        <div id="backgroundHeader">
+            <div id="textHeader">
+                <a href="https://www.escoladnc.com.br/" target="_blank"><img src="./images/logo.svg" id="logo" alt="logoDnc"></a>
+                <h1>
+                    Dê os primeiros passos da <br> 
+                    sua carreira em Tecnologia
+                </h1>
+                <p>
+                    Inscreva-se no curso gratuito de Introdução à Tecnologia da 
+                    DNC School e aprenda os principais fundamentos 
+                    para construir experiências efetivas.
+                </p>
+            </div>
+        </div>
+        <!-- LIST ITENS -->
+        <div id="backgroundList">
+            <div id="ListItens">
+                <ul>
+                    <li><img src="./icons/certificate.svg" alt="CertificateError"><p>Certificado de conclusão</p></li>
+                    <li><img src="./icons/clock.svg" alt="ClockError"><p>4 horas de conteúdo</p></li>
+                    <li><img src="./icons/camera.svg" alt="CameraError"><p>Aulas online gravadas</p></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <content>
+        <!-- CONTENT VIDEO -->
+        <div id="contentVideo">
+            <div>
+                <iframe id="videoYT" 
+                src="https://www.youtube.com/embed/ITxGkd9h4n4?si=VBeT4zKNVDqMCAlj" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+            <div id="contentText">
+                <h3>
+                    Aprenda com especialistas e <br>
+                    comece seu primeiro projeto
+                </h3>
+                <p>
+                    Conheça o processo de desenvolvimento e entenda como 
+                    utilizar os principais métodos e ferramentas da área 
+                    para resolver problemas complexos.
+                </p>
+                <p>
+                    Conquiste seu certificado e desenvolva um projeto 
+                    prático para aplicar seus conhecimentos.
+                </p>
+            </div>
+        </div>
+        <!-- CONTENT CAROUSEL -->
+        <div id="carousel">
+            <div id="contentCarousel">
+                <h3>Mais de 500 alunos já iniciaram seus estudos</h3>
+                <div id="cardsCarousel">
+                    <div class="arrowLeft" onclick="ScrollLeft()">
+                        <img src="./icons/arrowLeft.svg" alt="ArrowSVG" id="arrowLeft">
+                    </div>
+                    <div class="card" id="leonardo">
+                        <img src="./images/cardMan1.svg" alt="pictureMan">
+                        <div class="cardText">
+                            <p>
+                                “Gostei muito da metodologia e da plataforma da 
+                                Escola DNC. Os materiais são todos muito bons”
+                            </p>
+                            <p class="textName">Leonardo, desenvolvedor Back-End</p>
+                        </div>
+                    </div>
+                    <div class="card" id="samanta">
+                        <img src="./images/cardWoman1.svg" alt="pictureWoman">
+                        <div class="cardText">
+                            <p>
+                                “O curso da foi a mudança que eu precisava 
+                                para alcançar meus objetivos profissionais”
+                            </p>
+                            <p class="textName">Samantha, desenvolvedora Front-End</p>
+                        </div>
+                    </div>
+                    <div class="card" id="bruna">
+                        <img src="./images/cardWoman2.svg" alt="pictureWoman">
+                        <div class="cardText">
+                            <p>
+                                “O curso da DNC School foi o ponto de partida da minha 
+                                transição de carreira e na conquista da 
+                                minha primeira vaga!”
+                            </p>
+                            <p class="textName">Bruna, desenvolvedora Front-End</p>
+                        </div>
+                    </div>
+                    <div class="arrowRight" onclick="ScrollRight()">
+                        <img src="./icons/arrowRight.svg" alt="ArrowSVG" id="arrowRight"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT FORMS -->
+        <div id="contentForms">
+            <h3>Comece agora mesmo e dê o próximo passo da sua carreira</h3>
+            <div id="containerForms">
+                <input class="input" type="text" required placeholder="Nome" name="nome">
+                <input class="input" type="text" required placeholder="E-mail" name="e-mail">
+                <input class="input" type="text" required placeholder="Telefone" name="phone">
+                <button>Acesse a ementa grátis</button>
+            </div>
+        </div>
+    </content>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer">
+            <p>DNC® 2025 TODOS OS DIREITOS RESERVADOS</p>
+        </div>
+    </footer>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
