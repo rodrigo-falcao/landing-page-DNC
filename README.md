@@ -4,9 +4,7 @@
 Este projeto foi feito no módulo base da **Escola DNC**, além das instruções dadas no curso, foram feitas algumas melhorias no site.
 Visando colocar em prática conhecimento já obtido nos cursos anteriores. 
 
-
-<a href="https://rodrigo-falcao.github.io/landing-page-DNC/" target="_blank">Clique aqui para acessar o site do repositório!</a>
-
+Veja o projeto online: [Landing Page DNC](https://rodrigo-falcao.github.io/landing-page-DNC/)
 
 ## Como rodar o projeto
 
@@ -39,3 +37,5 @@ Visando colocar em prática conhecimento já obtido nos cursos anteriores.
 ## Contribuições
 
 Contribuições são bem-vindas! Se você tiver alguma ideia ou quiser corrigir algum erro, fique à vontade para fazer um **pull request**.
+
+Feito com ❤️ por Rodrigo Falcão
