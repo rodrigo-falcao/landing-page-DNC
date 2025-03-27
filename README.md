@@ -29,13 +29,10 @@ Veja o projeto online: [Landing Page DNC](https://rodrigo-falcao.github.io/landi
 - **Formulário de Inscrição**: Um formulário simples para o usuário preencher nome, e-mail e telefone para receber mais informações.
 - **Design Responsivo**: O layout é totalmente responsivo, ou seja, funciona bem em dispositivos móveis, tablets e desktops.
 
+🔹 **Projeto criado para aprendizado e prática!** 🚀 Sinta-se à vontade para contribuir ou sugerir melhorias. 😊
+
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/760e9e64-fea0-493e-8445-322c2cb9796d)
-
-
-## Contribuições
-
-Contribuições são bem-vindas! Se você tiver alguma ideia ou quiser corrigir algum erro, fique à vontade para fazer um **pull request**.
-
-Feito com ❤️ por Rodrigo Falcão
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/760e9e64-fea0-493e-8445-322c2cb9796d" alt="Screenshot do projeto">
+</p>
